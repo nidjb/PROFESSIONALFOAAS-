@@ -19,11 +19,13 @@ On the basis of the user's request, the service will retrieve an unprofessional 
 -- urllib.parse
 -----------------------------------------------------
 #### project Structure
+~~~bash
  CPSC-499-Section-1-Group-6-Project-1
  |
  |-- redact.py
  |-- server.py
  |-- README.md
+ ~~~
 -------------------------------------------------
 #### How to test an example run for this project:
 
