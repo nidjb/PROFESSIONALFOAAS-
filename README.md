@@ -61,6 +61,6 @@ On the basis of the user's request, the service will retrieve an unprofessional 
 
 ---------------------------------------------------------
 ##### Student INFORMATION -FALL 2021 -WEB BACK-END ENGINEERING
-Nidhi Shah
-Priyanka Kadam 
+Nidhi Shah (project lead)
+Priyanka Kadam
 Robert Nguyen
