@@ -20,7 +20,7 @@ On the basis of the user's request, the service will retrieve an unprofessional 
 -----------------------------------------------------
 #### project Structure
 ~~~bash
- CPSC-499-Section-1-Group-6-Project-1
+ ProfessionalversionofFOAAS
  |
  |-- redact.py
  |-- server.py
