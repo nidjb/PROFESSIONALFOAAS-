@@ -12,11 +12,11 @@ On the basis of the user's request, the service will retrieve an unprofessional 
 
 ------------------------------------------------------
 #### PROJECT REQUIRE MODULES (from python)
--- http.server
--- http.client
--- socketserver
--- json
--- urllib.parse
+* http.server
+* http.client
+* socketserver
+* json
+* urllib.parse
 -----------------------------------------------------
 #### project Structure
 ~~~bash
