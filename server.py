@@ -35,16 +35,16 @@ class requestHandler(BaseHTTPRequestHandler):
          #Created a app string for dynamic HTML to display result on a web which matches with the FOAAS.
 
         appString =(f'<!DOCTYPE html> <html> <head> <title>{message} {subtitle}</title>'
-                    f'<meta charset="utf-8">'
+                    '<meta charset="utf-8">'
                     f'<meta property="og:title" content="{message}{subtitle}">'
                     f'<meta property="og:description" content="{message}{subtitle}"> <meta name="twitter:card" content="summary" /> '
-                    f'<meta name="twitter:site" content="@foaas" /> <meta name="twitter:title" content="FOAAS: Fuck Off As A Service" />'
+                    '<meta name="twitter:site" content="@foaas" /> <meta name="twitter:title" content="FOAAS: Fuck Off As A Service" />'
                     f' <meta name="twitter:description" content="{message}{subtitle}" />  <meta name="viewport" content="width=device-width, initial-scale=1"> '
-                    f'<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet"></head>'
-                    f'<body style="margin-top:40px;"> <div class="container"> <div id="view-10"> <div class="hero-unit">'
+                    '<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet"></head>'
+                    '<body style="margin-top:40px;"> <div class="container"> <div id="view-10"> <div class="hero-unit">'
                     f'<h1>{message}</h1>'
                     f'<p><em>{subtitle}</em></p> </div> </div>'
-                    f'<p style="text-align: center"><a href="https://foaas.com/%22%3Efoaas.com">foaas.com</a></p> </div> </body> </html>' )
+                    '<p style="text-align: center"><a href="https://foaas.com/%22%3Efoaas.com">foaas.com</a></p> </div> </body> </html>' )
 
         #Giving a response as appstring to the client
         self.wfile.write(appString.encode())
